@@ -9,7 +9,8 @@ const Index = () => {
     <div className="min-h-screen bg-neutral-100">
       <Navigation />
       <Hero />
-      <TrustedBy />
+      {/* TODO: Utilizar isso quando houverem mais clientes */}
+      {/* <TrustedBy /> */}
       <Features />
       <Footer />
     </div>
