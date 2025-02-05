@@ -10,8 +10,12 @@ const Navigation = () => {
     <nav className="fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-6xl z-50">
       <div className="glass-panel rounded-full px-6 py-4 flex items-center justify-between shadow-lg backdrop-blur-md">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded-full"></div>
-          <span className="text-xl font-semibold">Lovely</span>
+          <img 
+            src="/lovable-uploads/74a0adbe-36b9-4335-ae7f-24db66f60633.png" 
+            alt="Suggest AI Logo" 
+            className="w-8 h-8"
+          />
+          <span className="text-xl font-semibold">Suggest AI</span>
         </div>
         
         {/* Desktop Navigation */}
