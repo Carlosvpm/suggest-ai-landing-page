@@ -1,30 +1,39 @@
+
 import { Check } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const Features = () => {
   const features = [
     {
-      title: "Intelligent Task Management",
-      description: "Streamline your tasks and collaborate seamlessly with our cutting-edge SaaS startup platform.",
-      points: ["Smart Task Assignment", "Real-time Collaboration", "Data Security & Privacy"]
+      title: "Automação Inteligente",
+      description: "Nossas soluções já ajudaram dezenas de empresas a reduzir custos operacionais em até 60% e aumentar a produtividade em mais de 80%.",
+      points: [
+        "Automação de processos repetitivos",
+        "Operação 24/7 com eficiência máxima",
+        "Eliminação de erros humanos"
+      ]
     },
     {
-      title: "Advanced Analytics",
-      description: "Harness the power of AI-driven analytics to optimize your campaigns and understand your audience better.",
-      points: ["Smart Audience Segmentation", "Predictive Performance", "Real-time Visualization"]
+      title: "Análise Preditiva e Atendimento",
+      description: "Tome decisões baseadas em dados precisos e melhore a experiência dos seus clientes com nossa tecnologia de ponta.",
+      points: [
+        "Antecipação de tendências de mercado",
+        "Chatbots inteligentes para atendimento",
+        "Insights valiosos de grandes dados"
+      ]
     }
   ];
 
   return (
-    <section className="py-24">
+    <section className="py-24 bg-white">
       <div className="container-padding">
         <div className="text-center mb-16">
           <span className="bg-accent-purple/10 text-accent-purple px-4 py-1.5 rounded-full text-sm font-medium">
-            TWO-COL FEATURES
+            NOSSAS SOLUÇÕES
           </span>
-          <h2 className="heading-lg mt-6">Supercharge Your Workflows</h2>
+          <h2 className="heading-lg mt-6">Revolucione seu Negócio com IA</h2>
           <p className="text-neutral-600 mt-4 max-w-2xl mx-auto">
-            Unlock your team's true potential with our state-of-the-art SaaS platform.
+            A Suggest AI desenvolve soluções personalizadas que transformam a forma como sua empresa trabalha.
           </p>
         </div>
 
@@ -43,10 +52,9 @@ const Features = () => {
                   </li>
                 ))}
               </ul>
-              <div className="mt-8 flex gap-4">
-                <button className="button-primary">Start 14-day trial</button>
-                <button className="px-6 py-3 text-neutral-600 hover:text-primary transition-colors">
-                  Contact Sales
+              <div className="mt-8">
+                <button className="button-primary">
+                  Saiba Mais
                 </button>
               </div>
             </div>
