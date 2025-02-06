@@ -7,10 +7,12 @@ import {
 
 const FAQ = () => {
   return (
-    <section className="py-16 md:py-24 bg-primary mb-12">
+    <section id="FAQ" className="py-16 md:py-24 bg-primary mb-12">
       <div className="container-padding">
         <div className="max-w-3xl mx-auto">
-          <h2 className="heading-lg text-center mb-12 text-white">Perguntas Frequentes</h2>
+          <h2 className="heading-lg text-center mb-12 text-white">
+            Perguntas Frequentes
+          </h2>
 
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem

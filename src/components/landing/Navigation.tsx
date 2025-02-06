@@ -30,14 +30,20 @@ const Navigation = () => {
           >
             Sobre
           </a>
-          <a
+          {/* <a
             href="#blog"
             className="text-neutral-600 hover:text-primary transition-colors font-medium"
           >
             Blog
+          </a> */}
+          <a
+            href="#FAQ"
+            className="text-neutral-600 hover:text-primary transition-colors font-medium"
+          >
+            Perguntas Frequentes
           </a>
           <a
-            href="#blog"
+            href="#howItWorks"
             className="text-neutral-600 hover:text-primary transition-colors font-medium"
           >
             Como Funciona?
@@ -83,7 +89,7 @@ const Navigation = () => {
               href="#about"
               className="text-neutral-600 hover:text-primary transition-colors font-medium px-4 py-2 hover:bg-neutral-200/50 rounded-lg"
             >
-              About
+              Sobre
             </a>
             <a
               href="#blog"
