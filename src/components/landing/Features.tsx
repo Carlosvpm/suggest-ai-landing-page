@@ -6,7 +6,7 @@ const Features = () => {
     {
       title: "Automação Inteligente",
       description:
-        "Nossas soluções já ajudaram dezenas de empresas a reduzir custos operacionais em até 60% e aumentar a produtividade em mais de 80%.",
+        "Otimize o seu bem mais valioso, seu Tempo! Nossas soluções já ajudaram dezenas de empresas a reduzir custos operacionais em até 60% e aumentar a produtividade em mais de 80%.",
       points: [
         "Automação de processos repetitivos com precisão",
         "Operação 24/7 com máxima eficiência e agilidade",
