@@ -3,6 +3,7 @@ import Navigation from "@/components/landing/Navigation";
 import Hero from "@/components/landing/Hero";
 import TrustedBy from "@/components/landing/TrustedBy";
 import Features from "@/components/landing/Features";
+import HowItWorks from "@/components/landing/HowItWorks";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
 
@@ -14,6 +15,7 @@ const Index = () => {
       {/* TODO: Utilizar isso quando houverem mais clientes */}
       {/* <TrustedBy /> */}
       <Features />
+      <HowItWorks />
       <FAQ />
       <Footer />
     </div>
