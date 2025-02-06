@@ -34,6 +34,26 @@ const Features = () => {
       ],
     },
     {
+      title: "Consultoria",
+      description:
+        "Te ajudaremos a esclarecer melhor como seus processos, atendimentos ou marketing podem ser otimizados",
+      points: [
+        "Análise dos processos internos",
+        "Estratégias personalizadas para acelerar resultados",
+        "Acompanhamento contínuo para ajustes e melhorias",
+      ],
+    },
+    {
+      title: "Automação de Marketing",
+      description:
+        "Implemente sistemas Plug & Play para nutrir e engajar leads de forma autônoma, maximizando resultados.",
+      points: [
+        "Campanhas automatizadas para nutrição de leads",
+        "Segmentação inteligente para maior personalização",
+        "Acompanhamento de métricas para otimização constante",
+      ],
+    },
+    {
       title: "Chatbots com IA",
       description:
         "Converta leads de forma instantânea com agentes de IA conversacionais, oferecendo uma experiência excepcional em qualquer canal.",

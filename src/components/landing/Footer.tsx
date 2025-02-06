@@ -7,9 +7,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <img
-                src="/lovable-uploads/logoHorizontal.png"
+                src="/lovable-uploads/logoHorizontalBranca.png"
                 alt="Suggest Logo"
-                className="h-8"
+                className="h-16"
               />
             </div>
             <p className="text-white text-sm">
